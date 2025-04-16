@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20a01a20-b5af-47cd-b2f8-b7976f005d6d" name="Changes" comment="done with api gateway and auth testing">
-      <change beforePath="$PROJECT_DIR$/infrastructure/cdk.out/localstack.template.json" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/cdk.out/localstack.template.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/cdk.out/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/cdk.out/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/cdk.out/tree.json" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/cdk.out/tree.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/pm/stack/LocalStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/pm/stack/LocalStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/target/classes/com/pm/stack/LocalStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/target/classes/com/pm/stack/LocalStack.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -572,7 +569,7 @@
       <workItem from="1744642510659" duration="5386000" />
       <workItem from="1744706904878" duration="3992000" />
       <workItem from="1744725631542" duration="10067000" />
-      <workItem from="1744781787996" duration="9872000" />
+      <workItem from="1744781787996" duration="10786000" />
     </task>
     <task id="LOCAL-00001" summary="generating and testing the grpc for createbillingaccount">
       <option name="closed" value="true" />
