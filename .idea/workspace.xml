@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20a01a20-b5af-47cd-b2f8-b7976f005d6d" name="Changes" comment="created msk cluster">
+    <list default="true" id="20a01a20-b5af-47cd-b2f8-b7976f005d6d" name="Changes" comment="created ecs cluster">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/cdk.out/localstack.template.json" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/cdk.out/localstack.template.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/cdk.out/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/cdk.out/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/cdk.out/tree.json" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/cdk.out/tree.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/pm/stack/LocalStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/pm/stack/LocalStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/target/classes/com/pm/stack/LocalStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/target/classes/com/pm/stack/LocalStack.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,61 +60,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.LocalStack.executor": "Run",
-    "Docker.analytics-service.executor": "Run",
-    "Docker.api-gateway.executor": "Run",
-    "Docker.auth-service-db.executor": "Run",
-    "Docker.auth-service.executor": "Run",
-    "Docker.billing-service.executor": "Run",
-    "Docker.kafka.executor": "Run",
-    "Docker.patient-service-db.executor": "Run",
-    "Docker.patient-service.executor": "Run",
-    "HTTP Request.create-billing-account | #1.executor": "Run",
-    "HTTP Request.get-patients | GET request to example server (1).executor": "Run",
-    "HTTP Request.get-patients | GET request to example server.executor": "Run",
-    "HTTP Request.login | Login request.executor": "Run",
-    "HTTP Request.validate | GET request to validate Token.executor": "Run",
-    "JUnit.All in api-gateway.executor": "Run",
-    "JUnit.AuthIntegrationTest.executor": "Run",
-    "JUnit.PatientIntegrationTest.executor": "Run",
-    "Maven.analytics-service [clean].executor": "Run",
-    "Maven.analytics-service [compile].executor": "Run",
-    "Maven.api-gateway [clean].executor": "Run",
-    "Maven.auth-service [clean].executor": "Run",
-    "Maven.billing-service [clean].executor": "Run",
-    "Maven.billing-service [compile].executor": "Run",
-    "Maven.patient-service [clean].executor": "Run",
-    "Maven.patient-service [compile].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.BillingServiceApplication.executor": "Run",
-    "Spring Boot.PatientServiceApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/saisw/MicroServiceProjects/patient-management/infrastructure",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/saisw/MicroServiceProjects/patient-management/infrastructure/src/main/java/com/pm/Main.java",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "settings.sync",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.LocalStack.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.analytics-service.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.api-gateway.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.auth-service-db.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.auth-service.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.billing-service.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.kafka.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.patient-service-db.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.patient-service.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.create-billing-account | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.get-patients | GET request to example server (1).executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.get-patients | GET request to example server.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.login | Login request.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.validate | GET request to validate Token.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in api-gateway.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AuthIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PatientIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.analytics-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.analytics-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.api-gateway [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.auth-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.billing-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.billing-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.patient-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.patient-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BillingServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.PatientServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/saisw/MicroServiceProjects/patient-management/infrastructure&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/saisw/MicroServiceProjects/patient-management/infrastructure/src/main/java/com/pm/Main.java&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\saisw\MicroServiceProjects\patient-management\auth-service" />
@@ -506,14 +510,6 @@
     </configuration>
     <list>
       <item itemvalue="Application.LocalStack" />
-      <item itemvalue="Docker.analytics-service" />
-      <item itemvalue="Docker.api-gateway" />
-      <item itemvalue="Docker.auth-service-db" />
-      <item itemvalue="Docker.auth-service" />
-      <item itemvalue="Docker.billing-service" />
-      <item itemvalue="Docker.kafka" />
-      <item itemvalue="Docker.patient-service-db" />
-      <item itemvalue="Docker.patient-service" />
       <item itemvalue="HTTP Request.get-patients | GET request to example server (1)" />
       <item itemvalue="HTTP Request.login | Login request" />
       <item itemvalue="HTTP Request.validate | GET request to validate Token" />
@@ -524,6 +520,14 @@
       <item itemvalue="Spring Boot.AuthServiceApplication" />
       <item itemvalue="Spring Boot.BillingServiceApplication" />
       <item itemvalue="Spring Boot.PatientServiceApplication" />
+      <item itemvalue="Docker.analytics-service" />
+      <item itemvalue="Docker.api-gateway" />
+      <item itemvalue="Docker.auth-service-db" />
+      <item itemvalue="Docker.auth-service" />
+      <item itemvalue="Docker.billing-service" />
+      <item itemvalue="Docker.kafka" />
+      <item itemvalue="Docker.patient-service-db" />
+      <item itemvalue="Docker.patient-service" />
     </list>
     <recent_temporary>
       <list>
@@ -569,7 +573,7 @@
       <workItem from="1744642510659" duration="5386000" />
       <workItem from="1744706904878" duration="3992000" />
       <workItem from="1744725631542" duration="10067000" />
-      <workItem from="1744781787996" duration="14076000" />
+      <workItem from="1744781787996" duration="17977000" />
     </task>
     <task id="LOCAL-00001" summary="generating and testing the grpc for createbillingaccount">
       <option name="closed" value="true" />
@@ -611,7 +615,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744810432411</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="created ecs cluster">
+      <option name="closed" value="true" />
+      <created>1744811286172</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744811286172</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +646,8 @@
     <MESSAGE value="resolved errors with analytics service" />
     <MESSAGE value="done with api gateway and auth testing" />
     <MESSAGE value="created msk cluster" />
-    <option name="LAST_COMMIT_MESSAGE" value="created msk cluster" />
+    <MESSAGE value="created ecs cluster" />
+    <option name="LAST_COMMIT_MESSAGE" value="created ecs cluster" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
