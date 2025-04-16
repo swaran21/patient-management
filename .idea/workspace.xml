@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20a01a20-b5af-47cd-b2f8-b7976f005d6d" name="Changes" comment="done with api gateway and auth testing">
+    <list default="true" id="20a01a20-b5af-47cd-b2f8-b7976f005d6d" name="Changes" comment="created msk cluster">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/pm/stack/LocalStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/pm/stack/LocalStack.java" afterDir="false" />
     </list>
@@ -569,7 +569,7 @@
       <workItem from="1744642510659" duration="5386000" />
       <workItem from="1744706904878" duration="3992000" />
       <workItem from="1744725631542" duration="10067000" />
-      <workItem from="1744781787996" duration="13309000" />
+      <workItem from="1744781787996" duration="14076000" />
     </task>
     <task id="LOCAL-00001" summary="generating and testing the grpc for createbillingaccount">
       <option name="closed" value="true" />
@@ -603,7 +603,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744734588954</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="created msk cluster">
+      <option name="closed" value="true" />
+      <created>1744810432411</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744810432411</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +633,8 @@
     <MESSAGE value="removed lombok as it is not working and also added billing service to patient-service" />
     <MESSAGE value="resolved errors with analytics service" />
     <MESSAGE value="done with api gateway and auth testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="done with api gateway and auth testing" />
+    <MESSAGE value="created msk cluster" />
+    <option name="LAST_COMMIT_MESSAGE" value="created msk cluster" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
