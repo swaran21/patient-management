@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20a01a20-b5af-47cd-b2f8-b7976f005d6d" name="Changes" comment="created ecs cluster">
+    <list default="true" id="20a01a20-b5af-47cd-b2f8-b7976f005d6d" name="Changes" comment="created ecs service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/cdk.out/localstack.template.json" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/cdk.out/localstack.template.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/cdk.out/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/cdk.out/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/cdk.out/tree.json" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/cdk.out/tree.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/src/main/java/com/pm/stack/LocalStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/src/main/java/com/pm/stack/LocalStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/target/classes/com/pm/stack/LocalStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/target/classes/com/pm/stack/LocalStack.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -510,6 +506,14 @@
     </configuration>
     <list>
       <item itemvalue="Application.LocalStack" />
+      <item itemvalue="Docker.analytics-service" />
+      <item itemvalue="Docker.api-gateway" />
+      <item itemvalue="Docker.auth-service-db" />
+      <item itemvalue="Docker.auth-service" />
+      <item itemvalue="Docker.billing-service" />
+      <item itemvalue="Docker.kafka" />
+      <item itemvalue="Docker.patient-service-db" />
+      <item itemvalue="Docker.patient-service" />
       <item itemvalue="HTTP Request.get-patients | GET request to example server (1)" />
       <item itemvalue="HTTP Request.login | Login request" />
       <item itemvalue="HTTP Request.validate | GET request to validate Token" />
@@ -520,14 +524,6 @@
       <item itemvalue="Spring Boot.AuthServiceApplication" />
       <item itemvalue="Spring Boot.BillingServiceApplication" />
       <item itemvalue="Spring Boot.PatientServiceApplication" />
-      <item itemvalue="Docker.analytics-service" />
-      <item itemvalue="Docker.api-gateway" />
-      <item itemvalue="Docker.auth-service-db" />
-      <item itemvalue="Docker.auth-service" />
-      <item itemvalue="Docker.billing-service" />
-      <item itemvalue="Docker.kafka" />
-      <item itemvalue="Docker.patient-service-db" />
-      <item itemvalue="Docker.patient-service" />
     </list>
     <recent_temporary>
       <list>
@@ -574,6 +570,8 @@
       <workItem from="1744706904878" duration="3992000" />
       <workItem from="1744725631542" duration="10067000" />
       <workItem from="1744781787996" duration="17977000" />
+      <workItem from="1744821011317" duration="264000" />
+      <workItem from="1744830905824" duration="892000" />
     </task>
     <task id="LOCAL-00001" summary="generating and testing the grpc for createbillingaccount">
       <option name="closed" value="true" />
@@ -623,7 +621,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744811286172</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="created ecs service">
+      <option name="closed" value="true" />
+      <created>1744821054880</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744821054880</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -647,7 +653,8 @@
     <MESSAGE value="done with api gateway and auth testing" />
     <MESSAGE value="created msk cluster" />
     <MESSAGE value="created ecs cluster" />
-    <option name="LAST_COMMIT_MESSAGE" value="created ecs cluster" />
+    <MESSAGE value="created ecs service" />
+    <option name="LAST_COMMIT_MESSAGE" value="created ecs service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
